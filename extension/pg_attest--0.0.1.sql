@@ -1,0 +1,3 @@
+CREATE OR REPLACE FUNCTION
+raw_attest(int,int) RETURNS int AS 'MODULE_PATHNAME','raw_attest'
+LANGUAGE C STRICT;
